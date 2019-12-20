@@ -982,3 +982,17 @@ jQuery('.shop-style-list .style-list .list-item').on('click', function(e){
     pause: true,
     interval: 4000,
   });
+
+
+  //checkout page
+
+  $('#checkbox2').change(function(){
+    if(this.checked)
+    {
+      $('#checkout_registered').hide();
+    }
+    else
+    {
+      $('#checkout_registered').show();
+    }
+  })
