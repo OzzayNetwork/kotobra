@@ -1042,21 +1042,21 @@
                             <p>Choose a payment option below and fill out the appropriate information. </p>
                            <div class="w-100 payment-options py-3">
 <!--                             credit card payment option-->
-                                 <div class="option-1  active">
+                                 <div class="option-1  active " id="credit">
                                     <span class="pay-container" title="Pay via your credit card">
                                     <i aria-hidden="true"  class="pe-7s-credit"></i>
                                     <p>Credit card</p>
                                  </span>
                                  </div>
                               
-                              <div class="option-1">
+                              <div class="option-1" id="mpesa">
                                     <span class="pay-container" title="Pay via Mpesa">
                                     <i aria-hidden="true" class="pe-7s-phone"></i>
                                     <p>Mpesa</p>
                                  </span>
                                  </div>
                               
-                              <div class="option-1">
+                              <div class="option-1" id="paypal">
                                     <span class="pay-container" title="Pay via your PayPal">
                                     <i class="icon-paypal"></i>
                                     <p>PayPal</p>
@@ -1064,7 +1064,7 @@
                                  </div>
                            </div>
                         </div>
-                        
+                     <div class="credit_card"> 
                         <div class="col-sm-12">
                            <div class="form-group">
                               <label for="card-name" class="text-capitalize">Name on card *</label>
@@ -1075,15 +1075,16 @@
                               <label for="card-num" class="text-capitalize">Card Number *</label>
                                     <input type="text" placeholder="0000 0000 0000 0000" class="placeholder-fix form-control" name="card-num">
                                  </div>
-                           
+                              </div>
+                           <div>
                            <div class="form-row">
-                           <div class="col">
+                           <div class="col-sm-4">
                              <div class="form-group">
                                <label for="cvv-num" class="text-capitalize">CVV number *</label>
                                         <input type="text" placeholder="CVV" class="placeholder-fix form-control" name="cvv-num">
                                       </div>
                            </div>
-                           <div class="col">
+                           <div class="col-sm-4">
                              <div class="form-group">
                                <label for="card-month" class="text-capitalize">exp. Month *</label>
                                        <select class="form-control s-styled hasCustomSelect" name="card-month">
@@ -1104,7 +1105,7 @@
                                        </select>
                                       </div>
                            </div>
-                            <div class="col">
+                            <div class="col-sm-4">
                              <div class="form-group">
                                <label for="card-year" class="text-capitalize">exp. Year *</label>
                                 <select class="form-control s-styled hasCustomSelect" id="card-years" name="card-year">
@@ -1118,6 +1119,30 @@
                           </div>
                            
                         </div>
+                     </div>
+
+                     <!-- MPESA payment -->
+                     <div class="mpesa d-none"> 
+                        <div class="col-sm-12">
+                           <div class="form-group">
+                              <label for="card-name" class="text-capitalize">Enter your phone number</label>
+                                    <input type="text" placeholder="eg 2547..." class="placeholder-fix form-control" name="card-name">
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- PAYPAL payment -->
+                     <div class="paypal d-none"> 
+                        <div class="col-sm-12">
+                           <div class="form-group">
+                              <label for="card-name" class="text-capitalize">Enter your email</label>
+                                    <input type="text" placeholder="eg doe@gmail.com" class="placeholder-fix form-control" name="card-name">
+                           </div>
+
+                        </div>
+                     </div>
+
+                     <!-- END PAYPAL PAYMENT -->
                            </div>
                         </div>
                      </div>

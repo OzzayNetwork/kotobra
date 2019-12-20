@@ -1003,6 +1003,24 @@ jQuery('.shop-style-list .style-list .list-item').on('click', function(e){
   $('.option-1').on('click', function(){
     $(this).addClass('active').siblings().removeClass('active');
   })
+
+  $('#credit').on('click', function(){
+    $('.credit_card').removeClass('d-none');
+    $('.mpesa').addClass('d-none');
+    $('.paypal').addClass('d-none');
+  })
+
+  $('#mpesa').on('click', function(){
+    $('.credit_card').addClass('d-none');
+    $('.mpesa').removeClass('d-none');
+    $('.paypal').addClass('d-none');
+  })
+
+  $('#paypal').on('click', function(){
+    $('.credit_card').addClass('d-none');
+    $('.mpesa').addClass('d-none');
+    $('.paypal').removeClass('d-none');
+  })
   
   //=============================================
   //generrate card years
