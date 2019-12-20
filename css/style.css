@@ -2849,3 +2849,54 @@ body.home-v5 footer #social-buttons .skype a { background: #12a5f4; }
 	background: white;
 	
 }
+
+.option-1{
+	background: #d7d9db42;
+	margin: 1rem;
+	border: 2px solid #f5f5f6;
+    height: 95px;
+    width: 146px;
+    border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition-duration: .8s;
+}
+.pay-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+.pay-container i{
+	font-size: 45px;
+}
+.pay-container p{
+	font-size: 12px;
+    font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+
+.payment-options .active{
+	border: 2px solid #b72c3e;
+	background: #f9e9ea;
+}
+
+ .payment-options .active p{
+	color: #b72c3e;
+}
+
+ .payment-options .active i{
+	color: #b72c3e;
+}
+.payment-options{
+	display: flex;
+	justify-content: center;
+}
+
+.option-1:hover{
+	background: #d7d9db8c;
+	border-color: #d7d9db8c;
+}

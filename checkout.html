@@ -995,9 +995,9 @@
                         </div>
                      </div>
                   </div>
-                  <div class="accordion-group panel">
+<!--                   <div class="accordion-group panel">
                      <a href="#collapse-4" data-parent="#accordion-order" data-toggle="collapse" class="accordion-header collapsed">
-                        PAYMENT METHOD
+                        PAYMENT OPTIONS
                      </a>
                      <div class="collapse" id="collapse-4" style="height: 0px;">
                         <div class="accordion-body">
@@ -1025,6 +1025,99 @@
                               <div class="col-xs-12 clearfix">
                                  <button class="btn btn-lg btn-third-col" type="submit">PLACE ORDER</button>
                               </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div> -->
+               <!-- NEW PAYMENT OPTIONS -->
+               <div class="accordion-group panel">
+                     <a href="#collapse-4" data-parent="#accordion-order" data-toggle="collapse" class="accordion-header collapsed">
+                       PAYMENT OPTIONS
+                     </a>
+                     <div class="collapse" id="collapse-4" style="height: 0px;">
+                        <div class="accordion-body">
+                           <div class="row">
+                        <div class="col-md-12">
+                              <h6>AVAILABLE PAYMENT OPTIONS</h6>
+                            <p>Choose a payment option below and fill out the appropriate information. </p>
+                           <div class="w-100 payment-options py-3">
+<!--                             credit card payment option-->
+                                 <div class="option-1  active">
+                                    <span class="pay-container" title="Pay via your credit card">
+                                    <i aria-hidden="true"  class="pe-7s-credit"></i>
+                                    <p>Credit card</p>
+                                 </span>
+                                 </div>
+                              
+                              <div class="option-1">
+                                    <span class="pay-container" title="Pay via Mpesa">
+                                    <i aria-hidden="true" class="pe-7s-phone"></i>
+                                    <p>Mpesa</p>
+                                 </span>
+                                 </div>
+                              
+                              <div class="option-1">
+                                    <span class="pay-container" title="Pay via your PayPal">
+                                    <i class="icon-paypal"></i>
+                                    <p>PayPal</p>
+                                 </span>
+                                 </div>
+                           </div>
+                        </div>
+                        
+                        <div class="col-sm-12">
+                           <div class="form-group">
+                              <label for="card-name" class="text-capitalize">Name on card *</label>
+                                    <input type="text" placeholder="eg John Doe" class="placeholder-fix form-control" name="card-name">
+                                 </div>
+                           
+                           <div class="form-group">
+                              <label for="card-num" class="text-capitalize">Card Number *</label>
+                                    <input type="text" placeholder="0000 0000 0000 0000" class="placeholder-fix form-control" name="card-num">
+                                 </div>
+                           
+                           <div class="form-row">
+                           <div class="col">
+                             <div class="form-group">
+                               <label for="cvv-num" class="text-capitalize">CVV number *</label>
+                                        <input type="text" placeholder="CVV" class="placeholder-fix form-control" name="cvv-num">
+                                      </div>
+                           </div>
+                           <div class="col">
+                             <div class="form-group">
+                               <label for="card-month" class="text-capitalize">exp. Month *</label>
+                                       <select class="form-control s-styled hasCustomSelect" name="card-month">
+                                         <option selected hidden>- Month -</option>
+                              <option value="January">January</option>
+                              <option value="Febuary">Febuary</option>
+                              <option value="March">March</option>
+                              <option value="April">April</option>
+                              <option value="May">May</option>
+                              <option value="June">June</option>
+                              <option value="July">July</option>
+                              <option value="August">August</option>
+                              <option value="September">September</option>
+                              <option value="October">October</option>
+                              <option value="November">November</option>
+                              <option value="December">December</option>
+                                          
+                                       </select>
+                                      </div>
+                           </div>
+                            <div class="col">
+                             <div class="form-group">
+                               <label for="card-year" class="text-capitalize">exp. Year *</label>
+                                <select class="form-control s-styled hasCustomSelect" id="card-years" name="card-year">
+                                <option selected hidden>- Year -</option>
+                              </select>
+                                      </div>
+                           </div>  
+                          </div>
+                           <div class="col-md-12 p-0">
+                             <button class="btn btn-third-col btn-md" type="submit">Pay</button>
+                          </div>
+                           
+                        </div>
                            </div>
                         </div>
                      </div>

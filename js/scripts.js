@@ -996,3 +996,24 @@ jQuery('.shop-style-list .style-list .list-item').on('click', function(e){
       $('#checkout_registered').show();
     }
   })
+
+// =============================================
+    // payment options
+    // =============================================
+  $('.option-1').on('click', function(){
+    $(this).addClass('active').siblings().removeClass('active');
+  })
+  
+  //=============================================
+  //generrate card years
+  //=============================================
+  var min = new Date().getFullYear(),
+    max = min + 9,
+    select = document.getElementById('card-years');
+
+  for (var i = min; i<=max; i++){
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.innerHTML = i;
+    select.appendChild(opt);
+  }
