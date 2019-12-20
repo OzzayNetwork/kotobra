@@ -604,7 +604,7 @@ footer .title-type-2 {color: #909090;}
 
 .box-with-pager .bx-prev:focus:hover, .box-with-pager .bx-next:focus:hover { color: #19a9bf; }
 
-.tweets-group a { color: #AF9541; }
+.tweets-group a { color: #4267b2; }
 
 .tweets-group li { margin-bottom: 30px; }
 
@@ -645,7 +645,7 @@ footer .title-type-2 {color: #909090;}
 
 .product-tags-box .tags { margin-bottom: 20px; }
 
-.product-tags-box .tags a { color: #fff; background: #ccbe8f; display: inline-block; padding: 4px 10px; text-transform: uppercase; margin: 2px 0; font-size: 13px; }
+.product-tags-box .tags a { color: #fff; background: #4267b2; display: inline-block; padding: 4px 10px; text-transform: uppercase; margin: 2px 0; font-size: 13px; }
 
 .product-tags-box .tags a:hover { background: #19a9bf; }
 
@@ -1635,7 +1635,7 @@ input.required-alert, input.required-alert:focus, .required-alert textarea { bor
 .contact .smart-phone span, .contact .phone span { color: black; vertical-align: top; }
 .contact .email { margin-bottom: 15px; }
 .contact .email i { font-size: 16px; margin-right: 15px; }
-.contact .email a { color: #AF9541; }
+.contact .email a { color: #4267b2; }
 .contact .email a:hover { color: #737880; }
 .contact .skype i { font-size: 16px; margin-right: 15px; }
 .contact .skype a { color: #19a9bf; }
