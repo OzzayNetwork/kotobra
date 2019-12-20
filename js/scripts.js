@@ -1005,21 +1005,45 @@ jQuery('.shop-style-list .style-list .list-item').on('click', function(e){
   })
 
   $('#credit').on('click', function(){
+    $('.credit_card').addClass('fadeIn');
+    $('.credit_card').removeClass('delay-4s');
     $('.credit_card').removeClass('d-none');
+
+    $('.mpesa').addClass('fadeOut');
+    $('.mpesa').addClass('delay-4s');
     $('.mpesa').addClass('d-none');
+
+    $('.paypal').addClass('fadeOut');
+    $('.paypal').addClass('delay-4s');
     $('.paypal').addClass('d-none');
   })
 
   $('#mpesa').on('click', function(){
+    $('.credit_card').addClass('fadeOut');
+    $('.credit_card').addClass('delay-4s');
     $('.credit_card').addClass('d-none');
+
     $('.mpesa').removeClass('d-none');
+    $('.mpesa').addClass('fadeIn');
+    $('.mpesa').addClass('delay-4s');
+
+    $('.paypal').addClass('fadeOut');
+    $('.paypal').addClass('delay-4s');
     $('.paypal').addClass('d-none');
   })
 
   $('#paypal').on('click', function(){
+    $('.credit_card').addClass('fadeOut');
+    $('.credit_card').addClass('delay-4s');
     $('.credit_card').addClass('d-none');
+    
+    $('.mpesa').addClass('fadeOut');
+    $('.mpesa').addClass('delay-4s');
     $('.mpesa').addClass('d-none');
+
     $('.paypal').removeClass('d-none');
+    $('.paypal').addClass('fadeIn');
+    $('.paypal').addClass('delay-4s');
   })
   
   //=============================================
